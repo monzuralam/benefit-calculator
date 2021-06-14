@@ -37,3 +37,29 @@ ul {
     margin-bottom: 0;
 }
 
+
+/*--------------------------------------------------------------
+# App Section 
+--------------------------------------------------------------*/
+.app-section{
+    overflow: hidden;
+    position: relative;
+    padding:50px 0;
+}
+
+.app-section .app-wrapper{
+    max-width: 100%;
+    overflow: hidden;
+    background: #eee;
+    border-radius: 5px;
+    padding:10px;
+}
+
+.app-section .app-wrapper .campain-banner{
+    overflow: hidden;
+}
+
+.app-section .app-wrapper .campain-banner img{
+    width: 100%;
+    border-radius: 5px;
+}
