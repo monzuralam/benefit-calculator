@@ -90,3 +90,13 @@ ul {
     padding: 6px 14px;
     border-radius: 20px;
 }
+
+.app-section .app-wrapper .lav-calculator-area{
+    background-color: #fff;
+    border-radius: 5px;
+    margin:10px 0;
+}
+
+.app-section .app-wrapper .lav-calculator-area img{
+    width: 100%;
+}
