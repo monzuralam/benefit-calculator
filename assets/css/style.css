@@ -113,3 +113,12 @@ ul {
 .app-section .app-wrapper .lav-calculator-counter-area .lav-calculator-wrapper .counter p{
     margin-bottom: 0;
 }
+.app-section .app-wrapper .video-gallery{
+    background-color: #fff;
+    border-radius: 5px;
+    margin-top:10px;
+}
+
+.app-section .app-wrapper .video-gallery .video-gallery-wrapper{
+    padding: 25px;
+}
