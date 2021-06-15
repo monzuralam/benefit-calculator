@@ -57,9 +57,36 @@ ul {
 
 .app-section .app-wrapper .campain-banner{
     overflow: hidden;
+    margin-bottom: 10px;
 }
 
 .app-section .app-wrapper .campain-banner img{
     width: 100%;
     border-radius: 5px;
+}
+
+.app-section .app-wrapper .service-slider-area{
+    position: relative;
+}
+
+.app-section .app-wrapper .service-slider-area .service-promo{
+    padding: 25px;
+    border-radius: 5px;
+    min-height: 165px;
+}
+
+.app-section .app-wrapper .service-slider-area .service-promo .service-promo-title{
+    margin-bottom: 10px;
+}
+
+.app-section .app-wrapper .service-slider-area .service-promo .service-promo-desc {
+    /* min-height: 40px; */
+    margin-bottom: 20px;
+}
+
+.app-section .app-wrapper .service-slider-area .service-promo .service-promo-link a{
+    color:inherit;
+    border: 1px solid #eee;
+    padding: 6px 14px;
+    border-radius: 20px;
 }
