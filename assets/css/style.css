@@ -100,3 +100,16 @@ ul {
 .app-section .app-wrapper .lav-calculator-area img{
     width: 100%;
 }
+
+.app-section .app-wrapper .lav-calculator-counter-area{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.app-section .app-wrapper .lav-calculator-counter-area .lav-calculator-wrapper{
+    padding: 25px;
+    text-align: center;
+}
+.app-section .app-wrapper .lav-calculator-counter-area .lav-calculator-wrapper .counter p{
+    margin-bottom: 0;
+}
