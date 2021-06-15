@@ -23,6 +23,31 @@ var swiper = new Swiper(".serviceSlider", {
     },
   });
 
+  var swiper = new Swiper(".videoSlider", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    autoplay:true,
+    loop:true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      768: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+      1024: {
+        slidesPerView: 1,
+        spaceBetween: 10,
+      },
+    },
+  });
+
 (function ($) {
   $.fn.countTo = function (options) {
     options = options || {};
