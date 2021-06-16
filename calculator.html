@@ -27,7 +27,91 @@
                         </div>
                         <div class="lav-calculator-area">
                             <div class="lav-calcultor-wrapper">
-                                
+                                <div id="wizard_container">
+                                    <div id="top-wizard">
+                                        <div id="progressbar"></div>
+                                    </div>
+                                    <!-- /top-wizard -->
+                                    <form id="wrapped" method="POST" enctype="multipart/form-data">
+                                        <input id="website" name="website" type="text" value="">
+                                        <!-- Leave for security protection, read docs for details -->
+                                        <div id="middle-wizard">
+                                             <!-- /step-->
+                                             <div class="step">
+                                                <h3 class="main_question"><strong>1/6</strong>Lorem, ipsum dolor.</h3>
+                                                <div class="form-group">
+                                                    <label for="firstname">Lorem ipsum dolor sit amet.</label>
+                                                    <input type="text" name="firstname" class="form-control required" placeholder="lorem ipsum">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label for="lastname">Lorem ipsum dolor sit amet.</label>
+                                                    <input type="text" name="lastname" class="form-control required" placeholder="lorem ipsum">
+                                                </div>
+                                            </div>
+                                            <!-- /step-->
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>2/6</strong>Lorem, ipsum dolor.</h3>
+                                                <div class="form-group">
+                                                    <label for="firstname">Lorem ipsum dolor sit amet.</label>
+                                                    <input type="text" name="firstname" class="form-control required" placeholder="lorem ipsum">
+                                                </div>
+                                            </div>
+                                             <!-- /step-->
+                                             <div class="step">
+                                                <h3 class="main_question"><strong>3/6</strong>Lorem, ipsum dolor.</h3>
+                                                <div class="form-group">
+                                                    <label for="firstname">Lorem ipsum dolor sit amet.</label>
+                                                    <input type="text" name="firstname" class="form-control required" placeholder="lorem ipsum">
+                                                </div>
+                                            </div>
+                                            <!-- /step-->
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>4/6</strong>Lorem, ipsum dolor.</h3>
+                                                <div class="form-group">
+                                                    <label for="lorem">Lorem ipsum dolor sit amet.</label>
+                                                    <input type="text" name="lorem" class="form-control required" placeholder="lorem ipsum">
+                                                </div>
+                                                <div class="form-group">
+                                                    <label class="container_check version_2 round">Lorem ipsum dolor sit amet.
+                                                        <input type="checkbox" name="question_1[]" value="Lorem ipsum dolor sit amet." class="required" onchange="getVals(this, 'question_1');">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                             <!-- /step-->
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>5/6</strong>Lorem ipsum doller sit</h3>
+                                                <div class="form-group">
+                                                    <label class="container_check version_2">Lorem ipsum dolor sit amet.
+                                                        <input type="checkbox" name="question_1[]" value="Lorem ipsum dolor sit amet." class="required" onchange="getVals(this, 'question_1');">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                                
+                                            </div>
+                                            
+                                            <!-- /step-->
+                                            <div class="step">
+                                                <h3 class="main_question"><strong>6/6</strong>Please fill with your details</h3>
+                                                <div class="form-group">
+                                                    <label class="container_check version_2 round">Lorem ipsum dolor sit amet.
+                                                        <input type="checkbox" name="question_1[]" value="Lorem ipsum dolor sit amet." class="required" onchange="getVals(this, 'question_1');">
+                                                        <span class="checkmark"></span>
+                                                    </label>
+                                                </div>
+                                            </div>
+                                            <!-- /step-->
+                                            
+                                        </div>
+                                        <!-- /middle-wizard -->
+                                        <div id="bottom-wizard">
+                                            <button type="button" name="backward" class="backward">Prev</button>
+                                            <button type="button" name="forward" class="forward">Next</button>
+                                            <button type="submit" name="process" class="submit">Submit</button>
+                                        </div>
+                                    </form>
+                                </div>
+                                <!-- /Wizard container -->
                             </div>
                         </div>
 
@@ -40,10 +124,11 @@
 
     <!-- JavaScript -->
     <script src="assets/js/swiper-bundle.min.js"></script>
-    <script src="assets/js/jquery-3.2.1.slim.min.js"></script>
+    <script src="assets/js/jquery-3.5.1.min.js"></script>
     <script src="assets/js/magnific-popup.min.js"></script>
     <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/common.js"></script>
     <script src="assets/js/main.js"></script>
   </body>
 </html>
