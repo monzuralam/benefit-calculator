@@ -1100,3 +1100,22 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
 .no-csspointerevents .nice-select.open .list {
     display: block;
 }
+/* ---------------------------------------------
+#  promo-slider
+/* --------------------------------------------*/
+.promo-slider{
+    background-color: #fff;
+    border-radius: 5px;
+    margin:10px 0px;
+}
+
+.promo-slider .promo-slider-wrapper img{
+    width:100%;
+}
+
+.promo-slider .promo-slider-wrapper .swiper-button-next {
+    color: transparent;
+}
+.promo-slider .promo-slider-wrapper .swiper-button-prev {
+    color: transparent;
+}
