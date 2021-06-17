@@ -216,7 +216,7 @@ $('.video').magnificPopup({
 		// Phpmaimer text/html SMPT > phpmailer/quotation_phpmailer_smtp.php
 		// PHPmailer with html template > phpmailer/quotation_phpmailer_template.php
 		// PHPmailer with html template SMTP> phpmailer/quotation_phpmailer_template_smtp.php
-		$('form#wrapped').attr('action', 'quotation.php');
+		$('form#wrapped').attr('action', 'result.html');
 		$("#wizard_container").wizard({
 			stepsWrapper: "#wrapped",
 			submit: ".submit",
