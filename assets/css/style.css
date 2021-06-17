@@ -1164,3 +1164,44 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     color: #fff;
     background: #222;
 }
+
+/* ---------------------------------------------
+#  lav calculator rating
+/* --------------------------------------------*/
+.app-review {
+    background-color: #fff;
+    margin:10px 0;
+}
+.app-review .app-review-wrapper{
+    padding: 25px;
+    overflow: hidden;
+}
+.app-review .app-review-wrapper label{
+    margin:0px;
+}
+.app-review .app-review-wrapper .star-rating{
+    margin-top: 5px;
+}
+
+.app-review .app-review-wrapper .star-rating > input {display: none;} 
+
+.app-review .app-review-wrapper .star-rating > label:before { 
+  content: "\f005"; /* Star */
+  margin: 0 2px;
+  font-size: 26px;
+  font-family: FontAwesome;
+  display: inline-block; 
+}
+
+.app-review .app-review-wrapper .star-rating > label{
+  color: #222222; 
+}
+
+.app-review .app-review-wrapper .star-rating > input:checked ~ label{ 
+    color: #ED1C24; 
+} 
+
+.app-review .app-review-wrapper .star-rating > input:hover ~ label{ 
+    color: #ED1C24;
+} 
+
