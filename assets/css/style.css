@@ -1133,3 +1133,34 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
     display:block;
     padding:25px;
 }
+
+/* ---------------------------------------------
+#  lav calculator result
+/* --------------------------------------------*/
+.lav-calculator-result {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 5px;
+    min-height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.lav-calculator-result h3{
+    margin-bottom: 10px;
+}
+.lav-calculator-result p{
+    font-size: 18px;
+}
+.lav-calculator-result .btn-outline {
+    border: 1px solid #222;
+    color: #222;
+    font-weight: 500;
+    transition: .3s ease-in-out;
+    width: 90px;
+}
+
+.lav-calculator-result .btn-outline:hover {
+    color: #fff;
+    background: #222;
+}
