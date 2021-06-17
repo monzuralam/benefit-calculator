@@ -1119,3 +1119,17 @@ input[type=file]::-webkit-file-upload-button:focus, input[type=file].invalid::-w
 .promo-slider .promo-slider-wrapper .swiper-button-prev {
     color: transparent;
 }
+
+.use-app{
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.use-app .use-app-wrapper .use-app-btn{
+    font-size: 20px;
+    color:inherit;
+    text-align: center;
+    margin:0px auto;
+    display:block;
+    padding:25px;
+}
