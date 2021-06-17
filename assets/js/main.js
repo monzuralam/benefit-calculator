@@ -77,6 +77,13 @@ var swiper = new Swiper(".serviceSlider", {
     },
   });
 
+/**
+ * click to change promo slider
+ */
+ $('#nextSlide').on('click',function(){
+  $('.swiper-button-next').click();
+});
+
 (function ($) {
   $.fn.countTo = function (options) {
     options = options || {};
